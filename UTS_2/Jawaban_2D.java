@@ -17,7 +17,7 @@ public class Jawaban_2D {
             for(j = 1 ; j <= i ;j++ ){
               System.out.printf("  ");  
                 }
-            for(k = j; k<=N;k++){
+            for(k = 1; k<=N-i;k++){
                 System.out.printf("%d ",k);
                     }
             System.out.println("   ");
